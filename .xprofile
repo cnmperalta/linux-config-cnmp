@@ -1,0 +1,9 @@
+if [ -n $DESKTOP_SESSION ] 
+  then
+  if [ $DESKTOP_SESSION == "i3" ]
+  then
+  sh ~/.fehbg &
+  /usr/bin/dropbox &
+  fi
+fi
+nvidia-settings --load-config-only
